@@ -7,6 +7,9 @@
 	if($add_user1=="admin"&&$add_password1=="1234"){ 	
 		$status=1;
 	}
+	if($add_user1!="admin"&&$add_password1!="1234"){ 	
+		$status=3;
+	}//แก้ไข ครั้งที่2 เพื่อเทสการใช้งาน git
 	else{
 		$status=2;
 	}
